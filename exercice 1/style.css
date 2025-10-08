@@ -1,0 +1,63 @@
+
+
+.btn {
+  padding: 2rem 4rem;
+  border: 2px solid var(--color,black);
+  background: transparent;
+  font-size: 1.6em;
+  border-radius: 2px;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.btn.red{
+ 
+    --color:red;
+
+
+}
+
+.btn.yellow {
+
+    --color:yellow;
+    
+}
+
+.btn.green {
+
+    --color:green;
+    
+}
+
+.btn.blue {
+    --color:blue;
+}
+
+.btn.red:hover {
+    background-color:var(--color,red);
+    
+    
+}
+
+.btn.green:hover {
+    background-color: var(--color,green);
+}
+
+.btn.yellow:hover {
+    background-color: var(--color, yellow);
+}
+
+.btn.blue:hover {
+    background-color: var(--color, blue);
+}
+
+
+
+
+
+
+/* Créer les variables CSS correpondantes aux classes des différents boutons
+
+Ne pas oublier l'effet au survol (effet inversé / fond de la variable de couleur)*/
